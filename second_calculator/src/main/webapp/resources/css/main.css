@@ -1,0 +1,44 @@
+header {
+    background-color: #1b6d85;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+}
+
+header a{
+    color: white;
+}
+
+header .userside {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.content {
+    margin-top: 100px;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.btn {
+    float: left;
+    width: 50%;
+}

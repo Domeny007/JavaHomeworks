@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="calculator_spring@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="interview_site">
+      <ObjectId>18040</ObjectId>
+    </database>
+    <database id="3" parent="1" name="exam_preparation">
+      <ObjectId>26428</ObjectId>
+    </database>
+    <database id="4" parent="1" name="exam_preparation_2">
+      <ObjectId>26804</ObjectId>
+    </database>
+    <database id="5" parent="1" name="script">
+      <ObjectId>27488</ObjectId>
+    </database>
+    <database id="6" parent="1" name="registration_02">
+      <ObjectId>27853</ObjectId>
+    </database>
+    <database id="7" parent="1" name="spring_database">
+      <ObjectId>27920</ObjectId>
+    </database>
+    <database id="8" parent="1" name="postgres">
+      <ObjectId>28320</ObjectId>
+    </database>
+    <database id="9" parent="1" name="calculator_spring">
+      <ObjectId>36621</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="10" parent="1" name="calculator_spring_third">
+      <ObjectId>36647</ObjectId>
+    </database>
+    <role id="11" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="12" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="13" parent="1" name="user">
+      <ObjectId>26427</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="14" parent="9" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-05-26.00:41:42.036</IntrospectionTimestamp>
+      <IntrospectionStateNumber>47496</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="15" parent="9" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="16" parent="9" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="17" parent="9" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="18" parent="9" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="19" parent="9" name="information_schema">
+      <ObjectId>12381</ObjectId>
+    </schema>
+    <sequence id="20" parent="14" name="hibernate_sequence">
+      <ObjectId>36643</ObjectId>
+      <StateNumber>47495</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="21" parent="14" name="users_seq">
+      <ObjectId>36645</ObjectId>
+      <StateNumber>47496</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="22" parent="14" name="calculator">
+      <ObjectId>36622</ObjectId>
+      <StateNumber>47494</StateNumber>
+    </table>
+    <table id="23" parent="14" name="people">
+      <ObjectId>36630</ObjectId>
+      <StateNumber>47494</StateNumber>
+    </table>
+    <column id="24" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>47492</StateNumber>
+    </column>
+    <column id="25" parent="22" name="digit">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47492</StateNumber>
+    </column>
+    <column id="26" parent="22" name="operation">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47492</StateNumber>
+    </column>
+    <column id="27" parent="22" name="user_id">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>47492</StateNumber>
+    </column>
+    <index id="28" parent="22" name="calculator_pkey">
+      <ObjectId>36628</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="29" parent="22" name="calculator_pkey">
+      <ObjectId>36629</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>calculator_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="30" parent="22" name="fk_9jyxbhip1j8ud2bbvk7d6q9pw">
+      <ObjectId>36638</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>36630</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>people</RefTableName>
+      <RefKeyName>people_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="31" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>47493</StateNumber>
+    </column>
+    <column id="32" parent="23" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47493</StateNumber>
+    </column>
+    <column id="33" parent="23" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47493</StateNumber>
+    </column>
+    <column id="34" parent="23" name="role">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47493</StateNumber>
+    </column>
+    <column id="35" parent="23" name="username">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>47493</StateNumber>
+    </column>
+    <index id="36" parent="23" name="people_pkey">
+      <ObjectId>36636</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="23" name="people_pkey">
+      <ObjectId>36637</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>people_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

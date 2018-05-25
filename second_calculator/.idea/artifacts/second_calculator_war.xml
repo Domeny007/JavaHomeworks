@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="second_calculator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="second_calculator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="second_calculator:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="third_calculator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WebCalcWithAngular.war">
+      <element id="artifact" artifact-name="third_calculator:war exploded" />
+    </root>
+  </artifact>
+</component>
