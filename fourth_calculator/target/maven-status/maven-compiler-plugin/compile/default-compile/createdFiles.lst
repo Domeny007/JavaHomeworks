@@ -1,0 +1,10 @@
+ru/kpfu/itis/client/GwtCalculator$1.class
+ru/kpfu/itis/client/GwtCalculatorServiceAsync.class
+ru/kpfu/itis/server/repository/OperationRepository.class
+ru/kpfu/itis/server/controller/IndexController.class
+ru/kpfu/itis/server/service/GwtCalculatorServiceImpl.class
+ru/kpfu/itis/client/GwtCalculator.class
+ru/kpfu/itis/server/model/Operation.class
+ru/kpfu/itis/client/GwtCalculatorService.class
+ru/kpfu/itis/client/GwtCalculator$2.class
+ru/kpfu/itis/client/GwtCalculatorClient.class

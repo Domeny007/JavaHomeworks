@@ -1,0 +1,3 @@
+# Module GwtCalculator
+# RPC service class, partial path of RPC policy file
+ru.kpfu.itis.client.GwtCalculatorService, A329DF8B3E6BBC1A718FCD66849A2853.gwt.rpc

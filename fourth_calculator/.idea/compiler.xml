@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fourth_calculator" />
+        <module name="fourth_homework" />
+        <module name="gwtcalc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fourth_calculator" target="1.6" />
+      <module name="fourth_homework" target="1.6" />
+      <module name="gwtcalc" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

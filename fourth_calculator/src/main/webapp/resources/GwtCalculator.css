@@ -1,0 +1,14 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: large;
+    font-style: italic;
+
+    font-weight: lighter;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: "Times New Roman", sans-serif;
+    background-color: cornsilk;
+}
