@@ -1,0 +1,7 @@
+ru/kpfu/itis/config/AppInit.class
+ru/kpfu/itis/model/Result.class
+ru/kpfu/itis/controllers/IndexViewController.class
+ru/kpfu/itis/model/Calculate.class
+ru/kpfu/itis/controllers/CalculatorViewController.class
+ru/kpfu/itis/config/WebSocketConfig.class
+ru/kpfu/itis/config/WebConfig.class
